@@ -1,0 +1,21 @@
+{
+    "name": "lina/builder",
+    "description": "project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LinaZ17",
+            "email": "lina.impz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aigletter/interfaces": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\Classes\\": "app/Classes/"
+        }
+    }
+}
